@@ -1,0 +1,28 @@
+
+body
+    {
+        display:flex;
+        background-color: aliceblue;
+        font-size: 28px;
+        font-family: sans-serif;
+        justify-content: center;
+        
+    }
+
+main
+    {
+        align-items: center;
+    }
+section
+    {
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+#titulo
+    {
+        
+        color: #01698e;
+        
+    }
