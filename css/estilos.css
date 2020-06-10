@@ -1,9 +1,9 @@
 
 body
     {
-        display:flex;
-        background-color: aliceblue;
-        font-size: 28px;
+        display:flex;                       /*que el body sea responsive*/
+        background-color: aliceblue;      /*color de fondo que no sea blanco*/  
+        font-size: 28px;                    /*Tamaño del texto*/
         font-family: sans-serif;
         justify-content: center;
         
@@ -11,18 +11,27 @@ body
 
 main
     {
+        /*Intento de poner la imagen en el centro respecto a la vertical*/
         align-items: center;
     }
 section
     {
+        /*Disponemo al hijo-imagen "Elon_Musk" como flexbox:responsive*/
         display:flex;
         flex-direction: column;
         
     }
 
+#Elon_Musk
+    {
+        /*Color y tamaño de la imagen inicial*/
+        width:600px;
+        
+    }
+
 #titulo
     {
-        
+        /*Color del tiutlo inicial "Stark inicial"*/
         color: #01698e;
         
     }
